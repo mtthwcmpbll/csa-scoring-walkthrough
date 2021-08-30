@@ -8,7 +8,8 @@ This mini project provides an easy way to walk through the Cloud Suitability Ana
 
 This walkthrough has some prerequisites to see the results described here:
 
-1. You've installed the [latest CSA release](https://github.com/vmwarepivotallabs/csa-ui/releases/) locally and added it to your path
+1. You've installed the [latest CSA release](https://github.com/vmware-tanzu/cloud-suitability-analyzer) locally and added it to your path
+1. You've initialized the CSA repo as a submodule in this repo with `git submodule init` and `git submodule update`.  This comes with the `ruler.py` script used to load custom rules.
 1. You've configured a higher file handle limit for your system (described in the CSA User Manual, but you can use `ulimit -n 20000` on MacOS to do this for your current terminal session)
 1. You've removed all existing rules from your CSA database so that the only ones used are the custom rules in this walkthrough.  To do this, you need to connect to your `csa.db` SQLite instance and truncate the rules table with `delete from rules;`.
 

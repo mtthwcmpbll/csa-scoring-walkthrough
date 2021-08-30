@@ -1,0 +1,3 @@
+[submodule "cloud-suitability-analyzer"]
+	path = cloud-suitability-analyzer
+	url = https://github.com/vmware-tanzu/cloud-suitability-analyzer
