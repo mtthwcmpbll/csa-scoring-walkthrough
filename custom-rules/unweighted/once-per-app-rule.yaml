@@ -1,0 +1,10 @@
+name: once-per-app
+filetype: txt1$
+target: file
+type: contains
+advice: Refer to platform documentation
+effort: 1
+readiness: 1
+category: app
+patterns:
+- value: file_1.txt1

@@ -1,0 +1,10 @@
+name: once-per-line
+filetype: txt[\d]+$
+target: line
+type: contains
+advice: Refer to platform documentation
+effort: 1
+readiness: 1
+category: line
+patterns:
+- value: blah

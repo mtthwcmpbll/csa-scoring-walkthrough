@@ -1,0 +1,10 @@
+name: once-per-file
+filetype: txt[\d]+$
+target: file
+type: regex
+advice: Refer to platform documentation
+effort: 1
+readiness: 1
+category: file
+patterns:
+- value: file_[\d]+.txt[\d]+
